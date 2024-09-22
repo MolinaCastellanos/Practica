@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Validación de Formulario con Javascript</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+	<main>
+        <h1 id="ejercicio">Ejercicio 9</h1>
+		<form action="" class="formulario" id="formulario">
+
+			<div class="form-grupo" id="form-grupo-nombre">
+				<label for="nombre" class="form-label">Nombre</label>
+				<div class="form-grupo-input">
+					<input type="text" class="form-input" name="nombre" id="nombre" placeholder="">
+				</div>
+				<p class="form-input-error">El nombre solo puede tener letras y espacios.</p>
+			</div>
+
+			<div class="form-grupo" id="form-grupo-contrasenia">
+				<label for="contrasenia" class="form-label">Contraseña</label>
+				<div class="form-grupo-input">
+					<input type="contrasenia" class="form-input" name="contrasenia" id="contrasenia">
+				</div>
+				<p class="form-input-error">La contraseña tiene que ser de 6 a 12 dígitos, al menos una minúscula, una mayúscula y un dígito.</p>
+			</div>
+
+			<div class="form-grupo" id="form-grupo-contrasenia2">
+				<label for="contrasenia2" class="form-label">Repetir Contraseña</label>
+				<div class="form-grupo-input">
+					<input type="contrasenia" class="form-input" name="contrasenia2" id="contrasenia2">
+				</div>
+				<p class="form-input-error">Ambas contraseñas deben ser iguales.</p>
+			</div>
+
+			<div class="form-grupo" id="form-grupo-correo">
+				<label for="correo" class="form-label">Correo Electrónico</label>
+				<div class="form-grupo-input">
+					<input type="email" class="form-input" name="correo" id="correo" placeholder="correo@correo.com">
+				</div>
+				<p class="form-input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+			<div class="form-grupo" id="form-grupo-comentario">
+				<label for="comentario" class="form-label">Comentarios</label>
+				<div class="form-grupo-input">
+					<input type="text" class="form-input" name="comentario" id="comentario" placeholder="Comenta tu experiencia">
+				</div>
+				<p class="form-input-error">Los comentarios no deben exceder los 50 caracteres.</p>
+			</div>
+
+			<div class="form-grupo" id="form-grupo-terminos">
+				<label class="form-label">
+					<input class="form-checkbox" type="checkbox" name="terminos" id="terminos">
+					Acepto los Terminos y Condiciones
+				</label>
+			</div>
+
+			<div class="form-mensaje" id="form-mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="form-grupo form-grupo-btn-enviar">
+				<button type="submit" class="form-btn">Enviar</button>
+				<p class="form-mensaje-exito" id="form-mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+		</form>
+	</main>
+
+    <script src="validaciones2.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <h1 id="ejercicio">Ejercicio 4</h1>
+        <form action="" class="formulario" id="formulario">
+            <div class="form-grupo" id="form-grupo-calif1">
+				<label for="calif1" class="form-label">Escriba la calificación de su primer parcial.</label>
+				<div class="form-grupo-input">
+					<input type="text" class="form-input" name="calif1" id="calif1" placeholder="6.5">
+				</div>
+				<p class="form-input-error">La cantidad debe ser escrita en números con 1 decimal. Observe el ejemplo.</p>
+			</div>
+
+            <div class="form-grupo" id="form-grupo-calif2">
+				<label for="calif2" class="form-label">Escriba la calificación de su segundo parcial.</label>
+				<div class="form-grupo-input">
+					<input type="text" class="form-input" name="calif2" id="calif2" placeholder="6.5">
+				</div>
+				<p class="form-input-error">La cantidad debe ser escrita en números con 1 decimal. Observe el ejemplo.</p>
+			</div>
+            <div class="form-grupo" id="form-grupo-calif3">
+				<label for="calif3" class="form-label">Escriba la calificación de su tercer parcial.</label>
+				<div class="form-grupo-input">
+					<input type="text" class="form-input" name="calif3" id="calif3" placeholder="6.5">
+				</div>
+				<p class="form-input-error">La cantidad debe ser escrita en números con 1 decimal. Observe el ejemplo.</p>
+			</div>
+            <div class="form-grupo" id="form-grupo-examen">
+				<label for="examen" class="form-label">Escriba la calificación de su examen final.</label>
+				<div class="form-grupo-input">
+					<input type="text" class="form-input" name="examen" id="examen" placeholder="6.5">
+				</div>
+				<p class="form-input-error">La cantidad debe ser escrita en números con 1 decimal. Observe el ejemplo.</p>
+			</div>
+            <div class="form-grupo" id="form-grupo-trabajo">
+				<label for="trabajo" class="form-label">Escriba la calificación de su trabajo final.</label>
+				<div class="form-grupo-input">
+					<input type="text" class="form-input" name="trabajo" id="trabajo" placeholder="6.5">
+				</div>
+				<p class="form-input-error">La cantidad debe ser escrita en números con 1 decimal. Observe el ejemplo.</p>
+			</div>
+
+			<div class="form-mensaje" id="form-mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="form-grupo form-grupo-btn-enviar">
+				<button type="submit" class="form-btn">Enviar</button>
+				<p class="form-mensaje-exito" id="form-mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+        </form>
+    </main>
+    
+    <script src="validaciones2.js"></script>
+</body>
+</html>

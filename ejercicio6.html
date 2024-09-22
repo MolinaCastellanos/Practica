@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio6</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <h1 id="ejercicio">Ejercicio 6</h1>
+        <form action="" class="formulario" id="formulario">
+            <div class="form-grupo" id="form-grupo-array">
+				<label for="array" class="form-label">Escriba su array. Separe cada cadena con un espacio.</label>
+				<div class="form-grupo-input">
+					<input type="text" class="form-input" name="array" id="array" placeholder="Tres tristes tigres">
+				</div>
+				<p class="form-input-error">El array solo puede contener letras y espacios.</p>
+			</div>
+
+			<div class="form-mensaje" id="form-mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="form-grupo form-grupo-btn-enviar">
+				<button type="submit" class="form-btn">Enviar</button>
+				<p class="form-mensaje-exito" id="form-mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+        </form>
+    </main>
+    
+    <script src="validaciones2.js"></script>
+</body>
+</html>

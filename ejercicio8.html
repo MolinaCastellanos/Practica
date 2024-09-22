@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio8</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <h1 id="ejercicio">Ejercicio 8</h1>
+        <form action="" class="formulario" id="formulario">
+            <div class="form-grupo" id="form-grupo-radio">
+				<label for="radio" class="form-label">Escriba cuánto tiempo lleva trabajando en la empresa.</label>
+				<div class="form-grupo-input">
+                    <input type="radio" class="form-input" id="1" name="radio" value="1 año a menos de 2 años">
+                    <label for="html">1 año a menos de 2 años</label><br>
+                    <input type="radio" class="form-input" id="2" name="radio" value="2 años a menos de 5 años">
+                    <label for="css">2 años a menos de 5 años</label><br>
+                    <input type="radio" class="form-input" id="3" name="radio" value="5 años a menos de 10 años">
+                    <label for="javascript">5 años a menos de 10 años</label><br>
+                    <input type="radio" class="form-input" id="3" name="radio" value="10 años o más">
+                    <label for="javascript">10 años o más</label>
+				</div>
+				<p class="form-input-error">La cantidad debe ser escrita en números con 2 decimales y sin espacios. Observe el ejemplo.</p>
+			</div>
+        
+			<div class="form-mensaje" id="form-mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="form-grupo form-grupo-btn-enviar">
+				<button type="submit" class="form-btn">Enviar</button>
+				<p class="form-mensaje-exito" id="form-mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+        </form>
+    </main>
+    
+    <script src="validaciones2.js"></script>
+</body>
+</html>

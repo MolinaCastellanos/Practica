@@ -1,0 +1,88 @@
+1. suponga que un individuo desea invertir su capital en un banco y desea saber 
+cuánto dinero ganará después de un mes si el banco paga a razón de 2% mensual
+recibir inversión 
+return inversión + (inversión*0.02)
+
+sueldo base + 10% extra por comisión
+recibir sueldo
+recibir número de comisiones al mes (3)
+for (numero de comisiones) {
+    sueldo += sueldo*0.1
+}
+Resultado = total
+
+tienda ofrece 15% de descuento por el total de la compra
+Recibir total de la compra
+return total - total * 0.15
+
+saber la calificación final de Algoritmos
+55% del promedio de sus tres calificaciones parciales
+30% de examen final
+15% de trabajo final
+
+
+Un algoritmo que calcule la edad de una persona
+En qué día naciste
+en qué mes naciste
+en qué año
+
+function palabrasANumeros (ArrayList<String> strings) {
+    if  (la palabra no es un número) {
+        array.set(-1)
+    }
+    return array de cada palabra a su versión numérica [1-9]
+}
+
+salario de un trabajador por concepto de horas extras
+recibir cantidad de horas extra = horas
+if (horas > 40) {
+    horas - 40 = extras
+}
+if (extras <= 8) {
+    extras = dobles
+} else {
+    extras -= 8
+    extras = triples
+}
+regresar salario
+
+calcular la utilidad de un trabajador
+recibir double salario
+double porcentaje
+combobox {
+    menos de 1 año : 
+        utilidad =  0.05 * salario
+        alert ("Sus utilidades son de ${utilidad}")
+        return true
+    1 año a menos de 2 años:
+        porcentaje = 0.07
+    2 años a menos de 5 años:
+        porcentaje = 0.10
+    5 años a menos de 10 años:
+        porcentaje = 0.15
+    10 años o más:
+        porcentaje = 0.20 
+    else:
+        alert ("Ocurrió un error")
+        return false;
+}
+
+cálculo de la letra del din
+
+validar los campos al perder el foco y mostrar una alerta de que los datos están mal
+botón de validar los datos =>
+si no todos los campos son correctos no se envía
+si todos los datos están correctos se envía el formulario
+Campos obligatorios:
+    Nombre 
+    email = email válido
+    Contraseña = no exceder los 50 caracteres
+    comentarios = 
+        lognitud minima de 6 caracteres
+        una letra minúscula
+        una letra mayúscula
+        un número
+Acepto las condiciones del servicio
+
+Crear una expresión regular que elimine las etiquetas potencialmente peligrosas (<script>...</script>)
+en una cadena html
